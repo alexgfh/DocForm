@@ -7,24 +7,25 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-	<Image style={{width: 140, height: 140}}
-	source={require('./images/icon.jpg')}/>
+	<Image style={{margin:15,width: 86, height: 120}}
+	source={require('./images/heart.png')}/>
         <DataInput isFirst
-	name="Sys"/>
+	name="SYS"/>
         <DataInput
-	name="Dia"/>
+	name="DIA"/>
         <TouchableOpacity
 	style={{marginRight:40,
 	paddingRight:20,
 	paddingLeft:20,
 	marginLeft:40,
 	marginTop:10,
+	marginBottom:10,
 	paddingTop:20,
 	paddingBottom:20,
 	borderRadius:25, 
-	backgroundColor: 'mediumpurple'}}
+	backgroundColor: 'purple'}}
         onPress={()=>0}>
-	<Text style={{color:'blue'}}>Submit</Text>
+	<Text style={{color:'white'}}>Submit</Text>
         </TouchableOpacity>
       </View>
     );
@@ -33,10 +34,8 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 40,
-    paddingVertical:60,
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#00f',
     justifyContent: 'space-between',
     alignItems: 'center'
   },

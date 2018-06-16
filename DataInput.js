@@ -5,9 +5,9 @@ export default class DataInput extends React.Component {
   render() {
     return (
       <View style={{flexDirection: "row",padding:2}}>
-        <Text style={{fontSize:20,borderColor:'green',borderWidth:3,padding:8}}>{this.props.name}:   </Text>
+        <Text style={{fontWeight:'bold',fontSize:20,color:'black',borderWidth:0,padding:8}}>{this.props.name}:   </Text>
         <TextInput
-        style={{backgroundColor: 'blue',width:80, borderRadius: 10}}
+        style={{fontSize:20, backgroundColor: 'white',width:80, borderRadius: 10}}
 	underlineColorAndroid='transparent'
         textAlign={'center'}
 	onSubmitEditing={this.props.goToNext}
