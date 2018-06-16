@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "933857501779",
+    "firebase_url": "https://drtimed-df79f.firebaseio.com",
+    "project_id": "drtimed-df79f",
+    "storage_bucket": "drtimed-df79f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933857501779:android:3b74f6195e6ae5c7",
+        "android_client_info": {
+          "package_name": "com.docform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPajoXkRlAFC_USHMj3p8z8uHvQw3Pnks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933857501779:android:a5412dd17ce7bcda",
+        "android_client_info": {
+          "package_name": "com.medtechbr.drtimed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933857501779-a5r3ip3e7g278l4t01ki51jlvuo9nll8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medtechbr.drtimed",
+            "certificate_hash": "db9606af1442142e4dd090e76759383a18929e03"
+          }
+        },
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPajoXkRlAFC_USHMj3p8z8uHvQw3Pnks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933857501779:android:4fae7d39d4ad5c9c",
+        "android_client_info": {
+          "package_name": "com.medtechbr.parkinsonwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933857501779-2kbk511gtbo5m3mae12m9mekisd46esm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medtechbr.parkinsonwatch",
+            "certificate_hash": "1c9db0f75ca0185e6aec75f2f4d831686eec884b"
+          }
+        },
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPajoXkRlAFC_USHMj3p8z8uHvQw3Pnks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933857501779-5r5lfubj76uenik1mufbp40trc3fu9e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
