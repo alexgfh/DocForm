@@ -13,9 +13,6 @@ export default class App extends React.Component {
         title="Submit"
         onPress={()=>0}
         />
-        <Button style={{flex:1}}
-        title="Push"
-        />
       </View>
     );
   }
