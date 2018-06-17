@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button, TextInput, Image, TouchableOpacity, KeyboardAvoidingView } from 'react-native';
+import { StyleSheet, Text, View, Button, TextInput, Image, TouchableOpacity, KeyboardAvoidingView, ToastAndroid } from 'react-native';
 import DataInput from './DataInput';
 
 export default class App extends React.Component {
@@ -24,7 +24,7 @@ export default class App extends React.Component {
 	paddingBottom:20,
 	borderRadius:25, 
 	backgroundColor: 'purple'}}
-        onPress={()=>0}>
+        onPress={()=>{ToastAndroid.show('Your data is safely sent, thank you!', ToastAndroid.SHORT);}}>
 	<Text style={{color:'white'}}>Submit</Text>
         </TouchableOpacity>
       </View>
